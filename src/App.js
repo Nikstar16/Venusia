@@ -16,8 +16,8 @@ const App = () => {
 
   const services = ['Company Formation', 'VAT returns and submission to HMRC', 'Bookkeeping', 'Payroll services', 'Annual return to Company House', 'Annual statutory accounts and submissions to HMRC',
 'Divident administrations', 'Self-assessment','Company secreterial services', 'We represent you in all tax matters','Excel expert to macro level']
-  const oneMoreThing = ['We dont increase our fees...ever', 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered account', 'Same accountant dealing with your company', 'Emails answered within 15 minutes',
-'We don`t have any offices or fancy website, so we keep pur fees low', 'We are not VAT registered, so you dont have to pay 20% extra on our fees','Experience with Xero and Quickbooks']
+  const oneMoreThing = ["We don't increase our fees...ever", 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered account', 'Same accountant dealing with your company', 'Emails answered within 15 minutes',
+  "We don't have any offices or fancy website, so we keep our fees low", "We are not VAT registered, so you don't have to pay 20% extra on our fees", "Experience with Xero and Quickbooks"]
   const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
