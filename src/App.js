@@ -14,10 +14,10 @@ const App = () => {
   const [validationErrosPhone, setValidationErrorsPhone] = useState([]);
   const [validationErrorsEmpty, serValidationErrorEmpty] = useState([]);
 
-  const services = ['Company Formation', 'VAT returns and submission to HMRC', 'Bookkeeping', 'Payroll services', 'Annual return to Company House', 'Annual statutory accounts and submissions to HMRC',
-'Divident administrations', 'Self-assessment','Company secreterial services', 'We represent you in all tax matters','Excel expert to macro level']
-  const oneMoreThing = ["We don't increase our fees...ever", 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered account', 'Same accountant dealing with your company', 'Emails answered within 15 minutes',
-  "We don't have any offices or fancy website, so we keep our fees low", "We are not VAT registered, so you don't have to pay 20% extra on our fees", "Experience with Xero and Quickbooks"]
+  const services = ['Company Formation', 'VAT returns and submission to HMRC', 'Bookkeeping', 'Payroll services', 'Annual returns to Companies House', 'Annual statutory accounts and submission to HMRC',
+'Dividends administration', 'Self-assessment','Company secretarial services', 'We represent you in all tax matters','Excel expert to macro level']
+  const oneMoreThing = ["We don't increase our fees...ever", 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered accountant', 'Same accountant dealing with your company', 'Emails answered within 15 minutes',
+  "We don't have any offices or fancy website, so we keep our fees low", "We are not VAT registered, so you don't have to pay 20% extra", "Experience with Xero and Quickbooks"]
   const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
@@ -115,66 +115,64 @@ const App = () => {
 
 
 
-          <div className="lg:flex lg:flex-row lg:mt-16">
-            <div className="lg:w-2/4">
-              <div className="lg:mt-20 ">
-                <p className="mt-8 text-gray-600 font-extrabold text-xs lg:text-base">We provide the following services for sole traders and small companies at a competitive price.</p>
-                <ul className="mt-8">
-                  { services.map(element => {
-                    return(
-                      <div key={element} className='flex items-center mb-2'>
-                        <img src="./arrow.png" alt="arrow-pointer" className='mr-3' width="32px" height="25px"/>
-                        <li className="w-4/5 text-sm lg:text-base text-gray-600">{element}</li>
-                      </div>
-                    )
-                    }
-                  )}
-                </ul>
-              </div>
-              <div className="hidden lg:flex lg:flex-col lg:my-8 lg:mt">
-                <img className="self-start my-8 "src="./acca.jpg" alt="acca logo" height="100px" width="150px"/> 
-                <h2 className="text-primary-blue lg:font-bold lg:font-sm">Actarus Services<span className="lg:ml-2 lg:text-gray-600 lg:font-bold lg:font-sm">Ltd</span> </h2>
-                <h3 className="lg:text-gray-600 lg:text-sm">316 Wimbledon Central</h3>
-                <h3 className="lg:text-gray-600 lg:text-sm">21-33 Worple Road</h3>
-                <h3 className="lg:text-gray-600 lg:text-sm">London</h3>
-                <h3 className="lg:text-gray-600 lg:text-sm">SW19 4BJ</h3>
-              </div>
-            </div>
-
-
-                  {/* adress ^ */}
-
-
-
-            <div className="lg:w-2/4">
-              <div className="flex flex-col lg:mt-4-8">
-                
-                <ul className="mt-16">
-                <li className="text-primary-blue font-bold w-full text-left text-base mb-8 lg:mb-0"> One more thing...</li>
-                  { oneMoreThing.map(element => {
-                    return(
-                      <div key={element} className='flex items-center mb-2'>
-                        <img src="./arrow.png" alt="arrow-pointer" className='mr-3' width="32px" height="25px"/>
-                        <li className="w-4/5 text-sm lg:text-base text-gray-600">{element}</li>
-                      </div>
-                    )
-                    }
-                  )}
-                </ul>
+          <div className="lg:mt-16">
+            <p className="mt-8 text-gray-600 font-extrabold text-xs lg:text-base lg:mt-8 mb-10">We provide the following services for sole traders and small companies at a competitive price.</p>
+            <div className='lg:flex lg:flex-row'>
+              <div className="lg:w-2/4">
+                <div className="">
+                  <ul className="">
+                    { services.map(element => {
+                      return(
+                        <div key={element} className='flex items-center mb-2'>
+                          <img src="./arrow.png" alt="arrow-pointer" className='mr-3' width="32px" height="25px"/>
+                          <li className="w-4/5 text-sm lg:text-base text-gray-600">{element}</li>
+                        </div>
+                      )
+                      }
+                    )}
+                  </ul>
+                </div>
+                <div className="hidden lg:flex lg:flex-col lg:my-8 lg:mt">
+                  <img className="self-start my-8 "src="./acca.jpg" alt="acca logo" height="100px" width="150px"/> 
+                  <h2 className="text-primary-blue lg:font-bold lg:font-sm">Actarus Services<span className="lg:ml-2 lg:text-gray-600 lg:font-bold lg:font-sm">Ltd</span> </h2>
+                  <h3 className="lg:text-gray-600 lg:text-sm">316 Wimbledon Central</h3>
+                  <h3 className="lg:text-gray-600 lg:text-sm">21-33 Worple Road</h3>
+                  <h3 className="lg:text-gray-600 lg:text-sm">London</h3>
+                  <h3 className="lg:text-gray-600 lg:text-sm">SW19 4BJ</h3>
+                </div>
               </div>
 
-                                {/* form ^ */}
+
+              {/* adress ^ */}
 
 
 
-              <div className="lg:hidden my-8">
-                <h2 className="text-primary-blue font-bold font-xs">Actarus Services<span className="ml-2 text-gray-600 font-bold font-xs">Ltd</span> </h2>
-                <h3 className="text-gray-600">316 Wimbledon Central</h3>
-                <h3 className="text-gray-600">21-33 Worple Road</h3>
-                <h3 className="text-gray-600">London</h3>
-                <h3 className="text-gray-600">SW19 4BJ</h3>
+              <div className="lg:w-2/4">
+                <div className="flex flex-col">
+                  <ul className="">
+                  <li className="text-primary-blue font-bold w-full text-left text-base mb-8 lg:mb-0"> One more thing...</li>
+                    { oneMoreThing.map(element => {
+                      return(
+                        <div key={element} className='flex items-center mb-2'>
+                          <img src="./arrow.png" alt="arrow-pointer" className='mr-3' width="32px" height="25px"/>
+                          <li className="w-4/5 text-sm lg:text-base text-gray-600">{element}</li>
+                        </div>
+                      )
+                      }
+                    )}
+                  </ul>
+                </div>
+                {/* form ^ */}
+                <div className="lg:hidden my-8">
+                  <h2 className="text-primary-blue font-bold font-xs">Actarus Services<span className="ml-2 text-gray-600 font-bold font-xs">Ltd</span> </h2>
+                  <h3 className="text-gray-600">316 Wimbledon Central</h3>
+                  <h3 className="text-gray-600">21-33 Worple Road</h3>
+                  <h3 className="text-gray-600">London</h3>
+                  <h3 className="text-gray-600">SW19 4BJ</h3>
+                </div>
               </div>
             </div>
+
           </div>
       </div>
     </div>
