@@ -1,13 +1,13 @@
-    module.exports = {
+module.exports = {
   prefix: '',
   important: false,
   separator: ':',
   theme: {
     screens: {
       sm: '640px',
-      md: '768px',
+      md: 'px',
       lg: '1024px',
-      xl: '1280px',
+      xl: '1440px',
     },
     colors: {
       transparent: 'transparent',
