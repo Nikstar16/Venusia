@@ -14,8 +14,8 @@ const App = () => {
   const [validationErrosPhone, setValidationErrorsPhone] = useState([]);
   const [validationErrorsEmpty, serValidationErrorEmpty] = useState([]);
 
-  const services = ['Company Formation', 'VAT returns and submission to HMRC', 'Bookkeeping', 'Payroll services', 'Annual return to Company House', 'Annual statutory accounts and submissions to HMRC',
-'Divident administrations', 'Self-assessment','Company secreterial services', 'We represent you in all tax matters','Excel expert to macro level']
+  const services = ['Company Formation', 'Bookkeeping', 'Payroll services', 'Annual return to Company House',
+'Dividens administrations', 'Self-assessment','Company secreterial services', 'We represent you in all tax matters','Excel expert to macro level']
   const oneMoreThing = ['We dont increase our fees...ever', 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered account', 'Same accountant dealing with your company', 'Emails answered promptly',
 'We don`t have any offices or fancy website, so we keep our fees low', 'No VAT charged on our fees','Experience with Xero and Quickbooks']
   const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -103,7 +103,7 @@ const App = () => {
                       <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 lg xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:">Tel:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">07810 018 274</span>
                     </div>
                     <div className="lg:flex lg:flex-row">
-                      <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:ml-8">Email:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">garald.gurriet@hotmail.com</span>
+                      <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:ml-8">Email:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">gerald.gurriet@hotmail.com</span>
                     </div>  
                   </div>
                 </div>
