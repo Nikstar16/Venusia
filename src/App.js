@@ -14,10 +14,10 @@ const App = () => {
   const [validationErrosPhone, setValidationErrorsPhone] = useState([]);
   const [validationErrorsEmpty, serValidationErrorEmpty] = useState([]);
 
-  const services = ['Company Formation', 'Bookkeeping', 'Payroll services', 'Annual return to Company House',
-'Dividens administrations', 'Self-assessment','Company secreterial services', 'We represent you in all tax matters','Excel expert to macro level']
-  const oneMoreThing = ['We dont increase our fees...ever', 'No hidden cost', 'We specialize in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered account', 'Same accountant dealing with your company', 'Emails answered promptly',
-'We don`t have any offices or fancy website, so we keep our fees low', 'No VAT charged on our fees','Experience with Xero and Quickbooks']
+  const services = ['Company Formation', 'Bookkeeping', 'Payroll Services', 'Annual Returns',
+'Dividends Administration', 'Self-Assessment','Company Secretarial Services', 'We represent you in all tax matters','Excel expert to macro level']
+  const oneMoreThing = ["We don't increase our fees...ever", 'No hidden costs', 'We specialise in start-ups and small businesses', 'No trainees in charge of your accounts...only a chartered accountant', 'Same accountant dealing with your company', 'Emails answered promptly',
+"We don't have any offices or fancy website, so we keep our fees low", 'No VAT charged on our fees','Experience with Xero and QuickBooks']
   const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
 
