@@ -103,7 +103,7 @@ const App = () => {
                       <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 lg xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:">Tel:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">07810 018 274</span>
                     </div>
                     <div className="lg:flex lg:flex-row">
-                      <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:ml-8">Email:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">gerald.gurriet@hotmail.com</span>
+                      <span className="lg:text-sm lg:text-gray-600 lg:font-bold lg:mr-1 xl:text-sm xl:text-gray-600 xl:font-bold xl:mr-1 xl:ml-8">Email:</span> <span className="lg:text-sm lg:font-bold text-primary-blue unselectable xl:text-sm xl:font-bold text-primary-blue unselectable">gerald.gurriet@actarus.co.uk</span>
                     </div>  
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const App = () => {
     </div>
   
   );
-  }
+}
 
 export default App;
 
