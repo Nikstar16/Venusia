@@ -1,6 +1,10 @@
 @import './assets/main.css';
 @import './assets/tailwind.css';
 
+body{
+    width: 100%;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

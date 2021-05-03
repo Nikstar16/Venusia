@@ -78,7 +78,7 @@ const App = () => {
             <span className="text-blue-700 font-bold unselectable">07810 018 274</span>
           </div>
           <div className="self-start flex flex-row"> <AiOutlineMail color='darkred' size='25px' className='mx-3 lg:hidden' />
-            <span className="text-blue-700 font-bold unselectable">gerald.gurriet@hotmail.com</span>
+            <span className="text-blue-700 font-bold unselectable">gerald.gurriet@actarus.co.uk</span>
           </div>
         </div>
 
