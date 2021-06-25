@@ -91,6 +91,7 @@ const App = () => {
 
           <div className="lg:absolute lg:top-0 lg:w-full lg:flex lg:flex-row lg:items-end border-b-8 border-gray-600 pb-4">
             <div className="lg:flex lg:flex-col lg:w-1/3">
+              <img src="./portret.jpeg" className='' alt="portret" height="150px" width="100px" />
               <span className="lg:text-xl lg:font-bold text-primary-blue font-serif">Gerald Gurriet</span>
               <h4 className="lg:text-sm lg:text-gray-600 lg:font-bold">Association of Chartered Certified Accountants</h4>
             </div>
@@ -156,7 +157,7 @@ const App = () => {
               <div className="flex flex-row justify-end mr-16	xl:mr-52">
                 <h3 className="text-primary-blue font-bold ">Reviews:</h3>
                 <a add target="_blank" href="https://www.yell.com/biz/actarus-services-ltd-london-10000481/">
-                  <img src="./reviews.png" alt="reviews image" className="ml-3 w-36 h-8" />
+                  <img src="./reviews1.png" alt="reviews image" className="ml-3 w-36 h-8" />
                 </a>
               </div>
 
