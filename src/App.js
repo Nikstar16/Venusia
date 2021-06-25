@@ -157,7 +157,7 @@ const App = () => {
               <div className="flex flex-row justify-end mr-16	xl:mr-52">
                 <h3 className="text-primary-blue font-bold ">Reviews:</h3>
                 <a add target="_blank" href="https://www.yell.com/biz/actarus-services-ltd-london-10000481/">
-                  <img src="./reviews1.png" alt="reviews image" className="ml-3 w-36 h-8" />
+                  <img src="./reviews.png" alt="reviews image" className="ml-3 w-36 h-8" />
                 </a>
               </div>
 
