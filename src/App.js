@@ -19,7 +19,7 @@ return (
 
         <div className='flex flex-col items-center justify-center'>
           <h1 className="lg:text-3xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mb-0 tracking-widest">VENUSIA<span className='text-brown-300 ml-4'>LTD</span></h1>
-          <h4 className='text-brown-300 '>Acccounting & Bookkeeping</h4>
+          <h4 className='text-brown-300 '>Accounting & Bookkeeping</h4>
         </div>
 
         <div className='w-full'>
@@ -74,7 +74,7 @@ return (
                         <h1 className='pt-8 text-2xl'>C.I.C</h1>
                         <div className='mb-8 lg:mb-0 lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                             <div className='lg:w-full lg:flex'>
-                                <div className='px-5 py-3 lg:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
+                                <div className='lg:w-full px-5 py-3 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto xl:w-6/7 justify-center divide-x'>
                                     {/* <p className='w-1/3'>
                                       A CIC is a special type of limited company which exists to benefit the community rather than private shareholders and is regulated by:
                                           <ul className='list-disc p-4'>
@@ -96,11 +96,11 @@ return (
                                         <li>We are flexible with any extra work you require from us</li>
                                       </ul>
                                   </div>       
-                                  <div className='lg:w-1/4 xl:w-1/3'>
+                                  <div className='lg:w-1/2 lg:mt-10 xl:flex xl:w-1/3 xl:pl-10 justify-start'>
                                     <img
                                         loading="lazy"
-                                        className="m-auto lg:px-4 lg:mb-8 mt-16"
-                                        src={'/cic.jpg'}
+                                        className="m-auto lg:px-4 lg:w-full  xl:pb-10"
+                                        src={'/cic1.jpg'}
                                     />
                                   </div>
                               </div>
@@ -115,9 +115,9 @@ return (
 
                       <div className='mx-site-w mb-10 lg:mb-20 mt-5 lg:mt-10 px-4 lg:px-0 text-center' >
                         <h1 className='pt-8 text-2xl'>CHARITY</h1>
-                          <div className='mb-8 lg:mb-0 lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
-                              <div className='lg:w-full lg:flex justify-center'>
-                                  <div className='px-5 py-3 lg:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
+                          <div className='mb-8 lg:mb-0 lg:flex lg:pl-10 justify-center lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
+                              <div className='lg:w-full '>
+                                  <div className='px-5 py-3 lg:w-full xl:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
                                       {/* <p className='w-1/3'>
                                         A CIC is a special type of limited company which exists to benefit the community rather than private shareholders and is regulated by:
                                             <ul className='list-disc p-4'>
@@ -131,8 +131,8 @@ return (
                                     <div className='lg:w-1/3 xl:w-1/3'>
                                       <img
                                           loading="lazy"
-                                          className="m-auto lg:h-48 xl:h-56 lg:px-4 lg:mb-8 mt-16"
-                                          src={'/charity.jpg'}
+                                          className="m-auto lg:h-48 xl:h-56 mt-10"
+                                          src={'/charity.jpeg'}
                                       />
                                     </div>
                                     <div className='p-8 mx-4 text-left lg:w-3/4 xl:w-1/2' >
@@ -162,7 +162,7 @@ return (
                         <h1 className='pt-8 text-2xl'>IDNEPENDENT EXAMINATION</h1>
                           <div className='mb-8 lg:mb-0 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                               <div className='lg:w-full lg:flex justify-center'>
-                                  <div className='px-5 py-3 lg:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
+                                  <div className='px-5 py-3 lg:w-full xl:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
                                       {/* <p className='w-1/3'>
                                         A CIC is a special type of limited company which exists to benefit the community rather than private shareholders and is regulated by:
                                             <ul className='list-disc p-4'>
