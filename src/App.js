@@ -19,7 +19,7 @@ return (
 
         <div className='flex flex-col items-center justify-center'>
           <h1 className="lg:text-3xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mb-0 tracking-widest">VENUSIA<span className='text-brown-300 ml-4'>LTD</span></h1>
-          <h4 className='text-brown-300 '>Accounting & Bookkeeping</h4>
+          <h4 className='text-brown-300 '>Acccounting & Bookkeeping</h4>
         </div>
 
         <div className='w-full'>
