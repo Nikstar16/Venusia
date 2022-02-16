@@ -148,7 +148,9 @@ module.exports = {
         100: '#ffce90',
       },
       main: {
-        100: '#ddd9c3'
+        100: '#ddd9c3',
+        200: '#4a452a',
+        300: '#948a54',
       },
     },
     spacing: {
@@ -171,6 +173,7 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '72': '20rem',
       "60vh": "60vh",
     },
     backgroundColor: theme => theme('colors'),

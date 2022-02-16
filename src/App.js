@@ -9,25 +9,24 @@ const App = () => {
 
 
 return (
-  <div className="lg:min-h-screen" id='home'>
+  <div className="lg:min-h-screen bg-main-100 ">
 
-    <div className="hidden bg-white lg:flex fixed top-0 left-0 flex-row justify-between pr-32 pl-32 p-2 z-1 lg:border-0 lg:w-full bg-orange-200" style={{
-        background: "rgba(0,0,0,0.4)",
+    <div className="hidden lg:flex fixed top-0 left-0 flex-row justify-between pr-32 pl-32 p-2 z-1 lg:border-0 lg:w-full" style={{
+        background: "rgba(0,0,0,0.3)",
         backdropFilter: "saturate(180%) blur(20px)",
-        color: "white",
       }}>
 
-        <div className='flex flex-col items-center justify-center'>
+        {/* <div className='flex flex-col items-center justify-center'>
           <h1 className="lg:text-3xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mb-0 tracking-widest">VENUSIA<span className='text-brown-300 ml-4'>LTD</span></h1>
           <h4 className='text-brown-300 '>Accounting & Bookkeeping</h4>
-        </div>
+        </div> */}
+
 
         <div className='w-full'>
           <ul className='flex flex-row mt-6 justify-center'>
-            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#home'>Home</a></li>
-            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black", width: "max-content"}}><a href='#weOffer'>What we offer</a></li>
-            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#team'>Team</a></li>
-            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#contact'>Contact</a></li>
+            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-main-200 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#'>Home</a></li>
+            {/* <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black", width: "max-content"}}><a href='#weOffer'>What we offer</a></li> */}
+            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-main-300 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#contact'>Contact</a></li>
           </ul>
         </div>
         {/* <div className='flex flex-row align-center'>
@@ -35,9 +34,9 @@ return (
         </div> */}
     </div>
     <div className='lg:relative bg-main-100 lg:mt-16'>
-      <img className='h-60vh m-auto ' src='/logo-nobackground-500.png'></img>
+      <img className='lg:h-72 xl:h-full m-auto ' src='/logo-nobackground-500.png'></img>
     </div>
-    <div className="relative h-60vh">
+    {/* <div className="relative h-60vh">
     
       <div className='lg: 2-full h-60vh text-center py-48 bg-hero-pattern bg-no-repeat bg-cover'>
   
@@ -47,7 +46,7 @@ return (
 
       </div>
 
-    </div>  
+    </div>   */}
 
       
 
@@ -63,15 +62,13 @@ return (
                 <div style={{
                     position: "absolute",
                     overflow: 'hidden',
-                    background: 'white',
                     width: '100%',
-                    marginTop: '2rem',
                 }}>
-                    <div className='h-20 border-b text-center my-4'>
+                    {/* <div className='h-20 border-b text-center my-4'>
                       <span className='text-1xl lg:text-3xl mb-8 lg:w-auto font-mono'>What we offer</span>
-                    </div>
+                    </div> */}
                     <div className='mx-site-w mt-5 bg-main-100 lg:mt-10 px-4 lg:px-0 text-center' >
-                        <h1 className='pt-8 text-2xl'>C.I.C</h1>
+                        <h1 className='pt-8 text-2xl text-main-200 text-3xl'>C.I.C</h1>
                         <div className='mb-8 lg:mb-0 lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                             <div className='lg:w-full lg:flex'>
                                 <div className='lg:w-full px-5 py-3 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto xl:w-6/7 justify-center divide-x'>
@@ -85,7 +82,7 @@ return (
                                       Although a CIC is a social enterprise, the reporting and filing follow the same principal as a Limited company. A members’ report also needs to be provided.
                                       As such we can help your Community Interest Company by:                                                                              
                                     </p>  */}
-                                    <div className='p-8 mx-4 text-left lg:w-3/4 xl:w-1/2' >
+                                    <div className='p-8 mx-4 text-left lg:w-3/4 xl:w-1/2'>
                                       <ul className='ml-4 list-disc'> 
                                         <li>We file the Confirmation Statement to Companies House on your behalf</li>
                                         <li>We prepare the payroll if needed</li>
@@ -109,12 +106,11 @@ return (
                         </div>
 
 
-                        <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
 
                           {/* charity */}
 
                       <div className='mx-site-w mb-10 lg:mb-20 mt-5 lg:mt-10 px-4 lg:px-0 text-center' >
-                        <h1 className='pt-8 text-2xl'>CHARITY</h1>
+                        <h1 className='pt-8 font-mono text-main-200 text-3xl'>CHARITY</h1>
                           <div className='mb-8 lg:mb-0 lg:flex lg:pl-10 justify-center lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                               <div className='lg:w-full '>
                                   <div className='px-5 py-3 lg:w-full xl:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
@@ -151,7 +147,6 @@ return (
                               </div>
                           </div> 
                       </div>
-                        <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
 
 
                                     {/* Independent Examiner */}
@@ -159,7 +154,7 @@ return (
 
 
                       <div className='mx-site-w mb-10 lg:mb-20 mt-5 lg:mt-10 px-4 lg:px-0 text-center'>
-                        <h1 className='pt-8 text-2xl'>IDNEPENDENT EXAMINATION</h1>
+                        <h1 className='pt-8 text-2xl text-main-200 text-3xl'>INDEPENDENT EXAMINATION</h1>
                           <div className='mb-8 lg:mb-0 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                               <div className='lg:w-full lg:flex justify-center'>
                                   <div className='px-5 py-3 lg:w-full xl:w-6/7 lg:text-lg lg:flex lg:flex-row lg:h-full lg:items-left text-justify font-roboto w-full justify-center divide-x'>
@@ -196,32 +191,65 @@ return (
 
                           </div> 
                       </div>
-
-                      <div className='border-b pt-4 bg-white h-16' id='team'>
+                      {/* <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div> */}
+                      <div className='grid grid-rows-2 grid-flow-col gap-4 my-24 mx-10 content-start'>
+                        <div className='border h-72 flex flex-col justify-evenly items-center'>
+                          <h2 className='text-main-300 font-bold'>ToboreyvonA</h2>
+                          <img className='h-8' src='/reviews.png'></img>                         
+                          <p className='text-main-200'>"I have been using Actarus Services since 2016 and I am more than happy with the services provided. 
+                            Gerald is professional, reliable, friendly and very knowledgeable. 
+                            I would highly recommend Actarus Services Ltd to anyone." - AS Limited</p>
+                        </div>
+                        <div className='border flex flex-col justify-evenly items-center'>
+                          <h2 className='text-main-300 font-bold'>LisimbaP</h2>
+                          <img className='h-8' src='/reviews.png'></img>                         
+                          <p className='text-main-200'>Excellent service. Gerald is punctual, dependable and very knowledgeable. 
+                            I have been guided through many challenges, with clear and digestible instructions. 
+                            Actarus Services are a delight to work with.</p>
+                        </div>
+                        <div className='border flex flex-col justify-evenly items-center'>
+                          <h2 className='text-main-300 font-bold'>BrendanS-44</h2>
+                          <img className='h-8' src='/reviews.png'></img>                         
+                          <p className='text-main-200'>Have been with them for a couple of years and great service all around. 
+                            Good communication, super friendly and flexible (Especially when I had a lot of changes I needed help with, all done super quick) and great rates for small businesses.
+                            Can fully recommend.</p>
+                        </div>
+                        <div className='border flex flex-col justify-evenly items-center'>
+                          <h2 className='text-main-300 font-bold'>MelanieP-3</h2>
+                          <img className='h-8' src='/reviews.png'></img>                         
+                          <p className='text-main-200'>I've been using Gerald to do my company accounts for the past 2 years. 
+                            He is generous with his time and has managed our annual accounts, VAT returns and payroll excellently and promptly. 
+                            He's always responsive if ever there are issues, and goes the extra mile to make sure everything's squared away.</p>
+                        </div>
+                      </div>
+                      {/* <div className='border-b pt-4 bg-white h-16' id='team'>
                           <span className='text-1xl lg:text-3xl lg:w-auto font-mono'>Team</span>                       
                       </div>    
                         <div className='h-8 bg-white'>
-                        </div>          
-                      <div className='h-60vh'>
-                          <div className='flex inline-flex justify-center'>
-                            <div>
-                              <img className=' mt-24' src='/gerald.png'></img>  
-                              <h2>Gerald Gurriet</h2>
-                            </div>  
-                              <img className='lg:h-64 lg:mt-32 m-auto' src='/aia.png'></img>
-                          </div>
-                          {/* <div>
-                              <h3>Alona Grinevecka</h3>
-                          </div> */}
-                        <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
-                      </div>
-
+                        </div>           */}
+                      
+{/* 
                       <div className='h-14 bg-white pt-8 border-b'>
                           <span className='text-1xl lg:text-3xl mb-8 lg:w-auto font-mono'>Contact</span>
                       </div>
                        <div className='h-8 bg-white'>  
-                       </div>  
-                      <div className='pt-12  h-56 bg-main-100 flex flex-row justify-evenly' id='contact'>  
+                       </div>   */}
+                      <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
+
+                      <div className='pt-12 h-72 items-center bg-main-100 flex flex-row justify-evenly' id='contact'>  
+                        <div className=''>
+                            <div className='flex inline-flex justify-center'>
+                              <div>
+                                <img className='h-40 mt-24' src='/gerald.png'></img>  
+                                <h2>Gerald Gurriet</h2>
+                              </div>  
+                                <img className='lg:h-64 lg:mt-24 m-auto' src='/aia.png'></img>
+                            </div>
+                            {/* <div>
+                                <h3>Alona Grinevecka</h3>
+                            </div> */}
+                          {/* <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div> */}
+                        </div>
                         <div>
                             <h2 className="text-brown-200 lg:font-bold lg:font-sm">V E N U S I A<span className="lg:ml-2 lg:text-brown-300 lg:font-bold lg:font-sm">L T D</span> </h2>
                             <h3 className="lg:text-sm">316 Wimbledon Central</h3>
