@@ -26,7 +26,9 @@ return (
           <ul className='flex flex-row mt-6 justify-center'>
             <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-main-200 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#'>Home</a></li>
             {/* <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-brown-500 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black", width: "max-content"}}><a href='#weOffer'>What we offer</a></li> */}
+            <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-main-200 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#reviews'>Clients' Reviews</a></li>
             <li className="lg:text-xl lg:font-bold lg:font-serif lg:text-main-200 lg:text-left mx-8" style={{textShadow: "0.5px 0.5px black"}}><a href='#contact'>Contact</a></li>
+
           </ul>
         </div>
         {/* <div className='flex flex-row align-center'>
@@ -48,7 +50,7 @@ return (
 
     </div>   */}
 
-      
+    <h1 className='text-brown-200 text-center xl:w-4/5 xl:ml-32  font-roboto lg:text-3xl xl:text-3xl' style={{textShadow: "1px 1px black"}}>We are an accounting practice dedicated to social enterprises. Whether you have a Community Interest Company or a Charity, we endeavour to be by your side and support your by taking over the administration of your new venture so that you can dedicate your time to the running and development of your organization.</h1>
 
                   {/* Services */}
 
@@ -67,8 +69,8 @@ return (
                     {/* <div className='h-20 border-b text-center my-4'>
                       <span className='text-1xl lg:text-3xl mb-8 lg:w-auto font-mono'>What we offer</span>
                     </div> */}
-                    <div className='mx-site-w mt-5 bg-main-100 lg:mt-10 px-4 lg:px-0 text-center' >
-                        <h1 className='pt-8 text-2xl text-main-200 text-3xl'>C.I.C</h1>
+                    <div className='mx-site-w bg-main-100 lg:mt-10 px-4 lg:px-0 text-center' >
+                        <h1 className='pt-8 text-2xl text-main-200 text-3xl'>COMMUNITY INTEREST COMPANY</h1>
                         <div className='mb-8 lg:mb-0 lg:mb-24 lg:w-full lg:pl-5 lg:my-20' style={{}} >
                             <div className='lg:w-full lg:flex flex-col'>
                               <div className='text-left relative'>
@@ -172,7 +174,7 @@ return (
                                       <p className='text-left lg:text-lg font-roboto my-8'>Where a charity’s annual income is over £25,000, the trustees must also arrange for an independent person or accountancy firm holding a practising certificate to carry out either an audit or an independent examination of their charity’s accounts. The purpose of this is to give the charity’s trustees, supporters, beneficiaries and the wider public, some independent assurance that the charity’s money has been properly accounted for and accounting records kept.</p> 
                                       <p className='text-left lg:text-lg font-roboto my-8'>Independent examination is a ‘light touch’ scrutiny involving the examiner checking for specific matters only.</p>                                                                   
                                       <p className='text-left lg:text-lg font-roboto my-8'>The trustees will usually be able to choose an independent examination instead of an audit if your charity’s gross income is:</p> 
-                                      <p className='text-left lg:text-lg font-roboto my-8'>We believe that Trustees, employees and volunteers should spend their time towards the cause of the charity and let us deal with the administration, such as:
+                                      <p className='text-left lg:text-lg font-roboto my-8'>
                                       <div className='lg:ml-14 lg:left-14'>
                                           <ul className='list-disc p-4 text-left xl:ml-36 lg:ml-5'>
                                             <li>more than £25,000, but not more than £1 million, provided that</li>
@@ -204,8 +206,11 @@ return (
                             </div>
 
                           </div> 
+                          <div id='reviews'></div>
                       </div>
                       {/* <div style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div> */}
+                      <h1 className='pt-8 font-mono text-main-200 text-3xl' >CLIENTS REVIEWS</h1>
+
                       <div className='grid grid-rows-2 grid-flow-col gap-4 my-24 mx-10 content-start'>
                         <div className='border h-72 flex flex-col justify-evenly items-center'>
                           <h2 className='text-main-300 font-bold'>GitanjaliP</h2>
