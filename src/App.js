@@ -50,16 +50,16 @@ return (
 
     </div>   */}
 
-      <div className='lg: 2-full h-60vh text-center py-32 bg-hero-pattern bg-no-repeat bg-cover bg-fixed' style={{
+      {/* <div className='lg: 2-full h-60vh text-center py-32 bg-hero-pattern-1 bg-no-repeat bg-cover bg-fixed' style={{
           backdropFilter: "saturate(180%) blur(20px)",
-        }}>
+        }}> */}
         <div className=" w-full flex lg:text-center lg:justify-center lg:items-center flex-col">
-          <h1 className='text-main-100 font-bold lg:text-3xl xl:text-4xl'style={{
+          <h1 className='text-main-100 font-bold lg:text-2xl xl:text-3xl'style={{
         background: "rgba(0,0,0,0.5)",
         backdropFilter: "saturate(180%) blur(20px)",
       }}>We are an accounting practice dedicated to social enterprises. Whether you have a Community Interest Company or a Charity, we endeavour to be by your side and support you by taking over the administration of your new venture so that you can dedicate your time to the running and development of your organization.</h1>
         </div>
-      </div>  
+      {/* </div>   */}
                   {/* Services */}
 
                   {/* cic */}
